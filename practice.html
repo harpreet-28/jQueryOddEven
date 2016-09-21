@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>practice interview question</title>
+</head>
+
+<body>
+    <ul id="list">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+        <li>g</li>
+        <li>h</li>
+        <li>i</li>
+        <li>j</li>
+        <li>k</li>
+        <li>l</li>
+        <li>m</li>
+        <li>n</li>
+        <li>o</li>
+        <li>p</li>
+        <li>q</li>
+        <li>r</li>
+        <li>s</li>
+        <li>t</li>
+        <li>u</li>
+        <li>v</li>
+        <li>w</li>
+        <li>x</li>
+        <li>y</li>
+        <li>z</li>
+    </ul>
+    <script src="jquery-3.1.0.js"></script>
+    <script>
+    $(function() {
+        $("li").css({
+            "list-style-type": "none",
+            "color": "white",
+            "width": "20px",
+            "text-align": "center"
+        });
+        $("li:odd").css("backgroundColor", "red");
+        $("li:even").css("backgroundColor", "blue");
+    })
+    </script>
+</body>
+
+</html>
